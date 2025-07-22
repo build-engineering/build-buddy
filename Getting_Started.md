@@ -46,7 +46,7 @@ This project uses Firebase for authentication, database, backend functions, and 
 
 1. Go to the [Firebase Console](https://console.firebase.google.com/).
 2. Click on "**Add project**".
-3. Enter a name for your project (e.g., `my-agentlab-ui`).
+3. Enter a name for your project (e.g., `build-buddy`).
 4. Accept the Firebase terms and click "**Continue**".
 5. You can choose to enable Google Analytics or not (it's optional for this project). Click "**Continue**" or "**Create project**".
 6. Wait for your project to be created.
@@ -152,12 +152,11 @@ This path uses automated GitHub Actions workflows to build and deploy your appli
 
 ### Step 1: Fork the Repository
 
-1. Go to [The-AI-Alliance/agent-lab-ui](https://github.com/The-AI-Alliance/agent-lab-ui)
-2. Click "Fork" to create your own copy
+1. Click "Fork" above.
 3. Clone your fork locally (optional, only if you want to make code changes):
    ```bash
-   git clone https://github.com/YOUR-USERNAME/agent-lab-ui.git
-   cd agent-lab-ui
+   git clone https://github.com/YOUR-USERNAME/build-buddy.git
+   cd build-buddy
    ```
 
 ### Step 2: Create Firebase Service Account
@@ -201,7 +200,7 @@ In your forked repository on GitHub:
 - `OPENAI_API_KEY`: For OpenAI integration
 - `DEEPINFRA_API_KEY`: For DeepInfra integration
 - `GITHUB_TOKEN`: For repository operations
-- Additional AI provider keys as needed (see [agentConstants.js](https://github.com/The-AI-Alliance/agent-lab-ui/blob/main/src/constants/agentConstants.js) for complete list)
+- Additional AI provider keys as needed (see [agentConstants.js](https://github.com/build-engineering/build-buddy/blob/main/src/constants/agentConstants.js) for complete list)
 
 ### Step 4: Deploy Using GitHub Actions
 
@@ -292,8 +291,8 @@ firebase --version
 
 #### Clone Repository
 ```bash
-git clone https://github.com/The-AI-Alliance/agent-lab-ui.git Build Buddy
-cd Build Buddy
+git clone https://github.com/build-engineering/build-buddy.git
+cd build-buddy
 ```
 
 #### Configure Firebase for Frontend

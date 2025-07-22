@@ -1,6 +1,6 @@
-# Getting Started with AgentLabUI
+# Getting Started with Build Buddy
 
-Welcome to AgentLabUI! This guide provides two clear paths to get AgentLabUI up and running. Choose the approach that best fits your needs.
+Welcome to Build Buddy! This guide provides two clear paths to get Build Buddy up and running. Choose the approach that best fits your needs.
 
 ## Choose Your Path
 
@@ -54,7 +54,7 @@ This project uses Firebase for authentication, database, backend functions, and 
 ### Register a Web App & Get Config
 
 1. Once your project is ready, click the "**Web**" icon ( `</>` ) to add a Firebase app to your project.
-2. Enter an "App nickname" (e.g., "AgentLabUI Web App").
+2. Enter an "App nickname" (e.g., "Build Buddy Web App").
 3. **Do NOT check** the box for "Also set up Firebase Hosting for this app" at this stage. We'll configure hosting later.
 4. Click "**Register app**".
 5. Firebase will display an SDK setup snippet. Under "Add Firebase SDK", you'll see a `firebaseConfig` object. **Copy this entire object.** It will look like this:
@@ -99,7 +99,7 @@ This project uses Firebase for authentication, database, backend functions, and 
 
 ### Enable Cloud Tasks (for Asynchronous Agent Runs)
 
-AgentLabUI uses Google Cloud Tasks to run agent queries in the background. This allows the user interface to remain responsive while the agent processes complex requests.
+Build Buddy uses Google Cloud Tasks to run agent queries in the background. This allows the user interface to remain responsive while the agent processes complex requests.
 
 1.  **Enable the Cloud Tasks API:**
    -   In the [Google Cloud Console](https://console.cloud.google.com/), select your project.
@@ -125,7 +125,7 @@ AgentLabUI uses Google Cloud Tasks to run agent queries in the background. This 
 
 ### Vertex AI Configuration (for Agent Deployment)
 
-AgentLabUI allows you to deploy agents to Google Cloud's Vertex AI using the Agent Development Kit (ADK).
+Build Buddy allows you to deploy agents to Google Cloud's Vertex AI using the Agent Development Kit (ADK).
 
 1. **Google Cloud Project:** Your Firebase project is also a Google Cloud Project. You can use this same project for Vertex AI.
 2. **Enable Vertex AI API:**
@@ -292,8 +292,8 @@ firebase --version
 
 #### Clone Repository
 ```bash
-git clone https://github.com/The-AI-Alliance/agent-lab-ui.git agentlabui
-cd agentlabui
+git clone https://github.com/The-AI-Alliance/agent-lab-ui.git Build Buddy
+cd Build Buddy
 ```
 
 #### Configure Firebase for Frontend
@@ -449,7 +449,7 @@ After deployment, Firebase CLI will output your application's URL. Visit it and 
 
 **Important:** The first user needs admin permissions manually set in Firestore.
 
-1. **Log in** to your AgentLabUI application (this creates your user document)
+1. **Log in** to your Build Buddy application (this creates your user document)
 2. **Go to Firebase Console** > Firestore Database
 3. **Navigate to the `users` collection**
 4. **Find your user document** (ID matches your Firebase UID)
@@ -531,7 +531,7 @@ After creating agents, you can:
 
 ## User Roles and Permissions System
 
-AgentLabUI includes a comprehensive user management system to control access to features.
+Build Buddy includes a comprehensive user management system to control access to features.
 
 ### Overview
 
@@ -682,7 +682,7 @@ The project includes comprehensive GitHub Actions workflows for automation:
 
 ### Custom Themes
 
-AgentLabUI supports custom theming through the configuration system. Themes can be configured to match your organization's branding.
+Build Buddy supports custom theming through the configuration system. Themes can be configured to match your organization's branding.
 
 ### MCP Integration
 
@@ -700,7 +700,7 @@ For organizations requiring multiple environments:
 
 ---
 
-That's it! You now have a comprehensive guide to get AgentLabUI running using either automated GitHub Actions deployment or local development. Choose the path that best fits your needs and start building AI agents! 🤖
+That's it! You now have a comprehensive guide to get Build Buddy running using either automated GitHub Actions deployment or local development. Choose the path that best fits your needs and start building AI agents! 🤖
 
 ### Quick Start Summary
 
@@ -710,4 +710,4 @@ That's it! You now have a comprehensive guide to get AgentLabUI running using ei
 **Path B (Local Development):**
 1. Install tools → 2. Clone & configure → 3. `npm start` → 4. `firebase deploy` → 5. Set admin permissions
 
-Both paths lead to the same fully functional AgentLabUI installation. Happy agent building!
+Both paths lead to the same fully functional Build Buddy installation. Happy agent building!

@@ -1,0 +1,21 @@
+[project]
+name = "a2a-watsonx-orchestrate-agent"
+version = "0.1.0"
+description = "A2A agent for WatsonX Orchestrate platform, deployed on Google Cloud Run."
+requires-python = ">=3.12"
+dependencies = [
+    "a2a-sdk>=0.2.16",
+    "smolagents>=0.2.1",
+    "click>=8.0",
+    "uvicorn>=0.20",
+    "python-dotenv>=1.0.0",
+    "litellm>=1.39.5",
+    "openai>=1.0.0",
+    "ibm_watsonx_orchestrate",
+]
+
+[project.scripts]
+a2a-watsonx-server = "__main__:main"
+
+[tool.uv.sources]
+#pypi = "https://pypi.org/simple"

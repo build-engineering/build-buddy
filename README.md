@@ -1,10 +1,17 @@
 # IBM Build Buddy
-Build Buddy is an AI assistant that answers IBM partners' most challenging questions and helps "vibe engineer" applications that embed IBM's AI expertise technologies into their applications.
+Build Buddy is an AI assistant that answers IBM partners' most challenging questions and helps "vibe engineer" applications that embed IBM's AI expertise technologies into their applications. This code was initially forked from the [AI Alliance's Agent Lab UI](https://github.com/The-AI-Alliance/agent-lab-ui).
 
-This code was initially forked from the [AI Alliance's Agent Lab UI](https://github.com/The-AI-Alliance/agent-lab-ui).
+## Getting Started
+For detailed instructions on how to set up, configure, and run this project locally and deploy it to Firebase, please refer to our comprehensive **[Getting_Started.md](./Getting_Started.md)** guide.
 
+This guide covers:
+*   Prerequisites (Node.js, Python, Firebase CLI, etc.)
+*   Firebase project setup.
+*   Local project configuration.
+*   Vertex AI setup for agent deployment.
+*   Running the development server and deploying the application.
+  
 ## Overview
-
 Build Buddy provides a user-friendly dashboard to:
 *   Design various types of AI agents (standalone, sequential, parallel, loop-based).
 *   Configure agent properties like model, instructions, and tools.
@@ -34,17 +41,6 @@ Our goal is to lower the barrier to entry for working with advanced agent framew
 *   **Backend:** Firebase (Authentication, Firestore, Cloud Functions for Python, Hosting)
 *   **AI Agent Framework:** Google Agent Development Kit (ADK)
 *   **Tool Framework Integration:** Gofannon
-
-## Getting Started
-
-For detailed instructions on how to set up, configure, and run this project locally and deploy it to Firebase, please refer to our comprehensive **[Getting_Started.md](./Getting_Started.md)** guide.
-
-This guide covers:
-*   Prerequisites (Node.js, Python, Firebase CLI, etc.)
-*   Firebase project setup.
-*   Local project configuration.
-*   Vertex AI setup for agent deployment.
-*   Running the development server and deploying the application.
 
 ## Available Scripts (Frontend - Create React App)
 

@@ -213,7 +213,7 @@ Choose your deployment method:
 
 #### Manual Deployment
 1. Go to **Actions** tab in your repository
-2. Run **"Deploy to My Fork"** workflow for hosting
+2. Run **"Deploy Fork to My Firebase Hosting"** workflow for hosting
 3. Run **"Deploy Firebase Functions Manually"** for backend functions
 
 ### Step 5: Access Your Deployed Application

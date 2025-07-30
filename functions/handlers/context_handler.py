@@ -17,7 +17,7 @@ def _fetch_web_page_content_logic(req: https_fn.CallableRequest):
         raise https_fn.HttpsError(code=https_fn.FunctionsErrorCode.INVALID_ARGUMENT, message="URL is required.")
 
     try:
-        headers = {'User-Agent': 'AgentLabUI-ContextFetcher/1.0'}
+        headers = {'User-Agent': 'Build Buddy-ContextFetcher/1.0'}
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status() # Raises HTTPError for bad responses (4xx or 5xx)
 
@@ -280,7 +280,7 @@ def _process_pdf_content_logic(req: https_fn.CallableRequest):
     if url:
         pdf_source_name = url.split('/')[-1] # Simple name from URL
         try:
-            headers = {'User-Agent': 'AgentLabUI-ContextFetcher/1.0'}
+            headers = {'User-Agent': 'Build Buddy-ContextFetcher/1.0'}
             response = requests.get(url, headers=headers, timeout=20, stream=True)
             response.raise_for_status()
             pdf_bytes = response.content # Read all content if small, or iterate for large

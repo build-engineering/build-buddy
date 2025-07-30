@@ -34,7 +34,7 @@ const AboutPage = () => {
         fetchVersion();
     }, []);
 
-    const appName = config?.appTitle || theme.customBranding?.appName || "AgentLabUI";
+    const appName = config?.appTitle || theme.customBranding?.appName || "Build Buddy";
     const appDescription = config?.appDescription || "This platform enables users to build, deploy, and manage advanced AI agents with ease.";
 
 

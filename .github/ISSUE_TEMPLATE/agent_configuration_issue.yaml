@@ -82,6 +82,6 @@ body:
       Examples:
         - Browser: Chrome 122
         - OS: Windows 11
-        - AgentLabUI Version: v1.2.3
+        - Build Buddy Version: v1.2.3
   validations:
     required: false

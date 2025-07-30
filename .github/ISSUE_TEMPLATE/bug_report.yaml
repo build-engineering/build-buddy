@@ -49,7 +49,7 @@ body:
     value: |
       - OS: 
       - Browser:
-      - AgentLabUI Version/Commit:
+      - Build Buddy Version/Commit:
       - Firebase CLI Version:
       - Node Version:
       - Python Version:

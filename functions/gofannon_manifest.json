@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.1",
   "source": "local_project_file_generated",
-  "description": "Locally defined Gofannon tools manifest for AgentLabUI, generated from available tools. Now with setup parameters.",
+  "description": "Locally defined Gofannon tools manifest for Build Buddy, generated from available tools. Now with setup parameters.",
   "tools": [
     {
       "id": "gofannon.arxiv.get_article.GetArticle",

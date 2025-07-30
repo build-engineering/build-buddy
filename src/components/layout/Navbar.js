@@ -76,7 +76,7 @@ const Navbar = () => {
                     to={currentUser ? "/projects" : "/"}
                     sx={{ color: 'inherit', textDecoration: 'none', mr: 2 }}
                 >
-                    {muiTheme.customBranding?.appName || 'AgentLabUI'}
+                    {muiTheme.customBranding?.appName || 'Build Buddy'}
                 </Typography>
 
                 {currentUser && (

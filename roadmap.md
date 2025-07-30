@@ -1,6 +1,6 @@
 # Implementation Status
 
-This page tracks the implementation status of various Agent Development Kit (ADK) features within AgentLabUI and related platforms.
+This page tracks the implementation status of various Agent Development Kit (ADK) features within Build Buddy and related platforms.
 
 **Legend:**
 
@@ -10,7 +10,7 @@ This page tracks the implementation status of various Agent Development Kit (ADK
 *   🙈 : Feature not available in this framework
 *   ❌ : Will not implement / Not in Roadmap
 
-| Feature Category          | Feature Name                                        | AgentLabUI (via ADK) | LlamaStack | AWS Bedrock |  
+| Feature Category          | Feature Name                                        | Build Buddy (via ADK) | LlamaStack | AWS Bedrock |  
 |---------------------------|-----------------------------------------------------|----------------------|------------|-------------|  
 | **Agent Definition & Types** |                                                     |                      |            |             |  
 |                           | LlmAgent (reasoning agent)                          | ✅                   | ❓          | ❓           |  
@@ -42,13 +42,13 @@ This page tracks the implementation status of various Agent Development Kit (ADK
 |                           | Gemini Integration (Vertex AI)                      | ✅                   | ❓          | ❓           |  
 |                           | LiteLLM Integration (OpenAI, Anthropic, etc.)       | 🚧                   | ❓          | ❓           |  
 | **Development & Deployment**|                                                     |                      |            |             |  
-|                           | ADK Web UI (official `adk web`)                     | 🚧 (AgentLabUI is separate) | ❓       | ❓           |  
+|                           | ADK Web UI (official `adk web`)                     | 🚧 (Build Buddy is separate) | ❓       | ❓           |  
 |                           | ADK CLI (`adk run`, etc.)                           | 🚧 (ADK tool)        | ❓          | ❓           |  
 |                           | Deployment to Vertex AI Agent Engine                | ✅                   | ❓          | ❓           |  
 |                           | Deployment to Cloud Run / GKE                       | 🚧                   | ❓          | ❓           |  
 | **Advanced Features**     |                                                     |                      |            |             |  
 |                           | Callbacks (before/after agent, model, tool)         | 🚧                   | ❓          | ❓           |  
-|                           | Streaming (Text, Audio, Video - for deployed agents)| 🚧 (Text-based for AgentLabUI runner) | ❓ | ❓       |  
+|                           | Streaming (Text, Audio, Video - for deployed agents)| 🚧 (Text-based for Build Buddy runner) | ❓ | ❓       |  
 |                           | Streaming Tools                                     | 🚧                   | ❓          | ❓           |  
 |                           | Evaluation Framework (ADK native)                   | 🚧                   | ❓          | ❓           |  
 |                           | Safety Guardrails (via Callbacks, Tool Design)      | 🚧                   | ❓          | ❓           |  

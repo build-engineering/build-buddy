@@ -51,10 +51,10 @@ function AppInitializer() {
     // Effect for setting document title and meta description
     useEffect(() => {
         if (!loadingConfig && config) {
-            document.title = config.appTitle || "AgentLabUI";
+            document.title = config.appTitle || "Build Buddy";
             updateMetaTagContent('meta-description', config.appDescription || "Build & Deploy AI Agents");
         } else if (!loadingConfig && !config && !configError) { // Fallback if config is null but no error
-            document.title = "AgentLabUI"; // Default title
+            document.title = "Build Buddy"; // Default title
             updateMetaTagContent('meta-description', "AI Agent Prototyping Platform"); // Default description
         }
     }, [config, loadingConfig, configError]);

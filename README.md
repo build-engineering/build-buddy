@@ -82,17 +82,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 *   [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 *   [React documentation](https://reactjs.org/).
 
-## Future Enhancements (Roadmap Ideas)
-
-*   More granular control over ADK deployment options (e.g., specific machine types, regions per deployment).
-*   Enhanced tool configuration UI (e.g., for Vertex AI Search datastore IDs).
-*   Agent sharing and collaboration features.
-*   Version control for agent configurations.
-*   Integration with more evaluation and testing frameworks.
-*   Expanded monitoring and analytics for deployed agents.
 
 ## Contributing
-
 We welcome contributions from the community! If you'd like to contribute, please:
 1.  Fork the repository.
 2.  Create a new branch for your feature or bug fix.
@@ -102,5 +93,4 @@ We welcome contributions from the community! If you'd like to contribute, please
 Please refer to `CONTRIBUTING.md` (if available) for more detailed guidelines.
 
 ## License
-
 This project is licensed under the [Apache License 2.0](./LICENSE). (Assuming Apache 2.0, please create a LICENSE file or specify otherwise).  

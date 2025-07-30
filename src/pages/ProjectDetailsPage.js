@@ -71,12 +71,12 @@ const ProjectDetailsPage = () => {
                 getModelsForProjects([projectId]),
                 getChatsForProjects([projectId])
             ]);
-            setAgents(projectAgents);
-            setModels(projectModels);
-            setChats(projectChats);
+            //setAgents(projectAgents);
+            //setModels(projectModels);
+            //setChats(projectChats);
         } catch (err) {
             console.error("Error fetching project details:", err);
-            setError(err.message);
+            setError(`Error fetching project details: ${err.message}`);
         } finally {
             setLoading(false);
         }

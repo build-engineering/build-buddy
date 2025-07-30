@@ -62,7 +62,7 @@ const ModelsPage = () => {
                 setPublicModels(pubModels);
             } catch (err) {
                 console.error("Error fetching models:", err);
-                setError("Failed to load models.");
+                setError(`Error fetching models:: ${err.message}`);
             } finally {
                 setLoading(false);
             }

@@ -26,7 +26,7 @@ const ProjectsPage = () => {
                 setProjects(fetchedProjects);
             } catch (err) {
                 console.error("Error fetching projects:", err);
-                setError("Failed to load projects.");
+                setError(`Error fetching projects:: ${err.message}`);
             } finally {
                 setLoading(false);
             }

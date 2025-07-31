@@ -26,3 +26,8 @@ yarn-error.log*
 .idea
 
 *.log
+firebaseConfig.json
+build-buddy-firebase.json
+.firebaserc
+firebase.json
+firestore.indexes.json

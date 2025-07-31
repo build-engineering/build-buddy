@@ -1,14 +1,18 @@
-![AgentLabUI Logo](./logo.png)
+# IBM Build Buddy
+Build Buddy is an AI assistant that answers IBM partners' most challenging questions and helps "vibe engineer" applications that embed IBM's AI expertise technologies into their applications. This code was initially forked from the [AI Alliance's Agent Lab UI](https://github.com/The-AI-Alliance/agent-lab-ui).
 
-# AgentLabUI - An AI Alliance Project
+## Getting Started
+For detailed instructions on how to set up, configure, and run this project locally and deploy it to Firebase, please refer to our comprehensive **[Getting_Started.md](./Getting_Started.md)** guide.
 
-**AgentLabUI** is a web-based interface designed to simplify the creation, management, and deployment of AI agents. Built with React and Firebase, it leverages the power of Google's Agent Development Kit (ADK) and supports integration with Gofannon tools, enabling developers and researchers to rapidly prototype and experiment with sophisticated AI agent architectures.
-
-This project is an initiative aimed at fostering collaboration and advancing AI agent development within the **AI Alliance** community and beyond.
-
+This guide covers:
+*   Prerequisites (Node.js, Python, Firebase CLI, etc.)
+*   Firebase project setup.
+*   Local project configuration.
+*   Vertex AI setup for agent deployment.
+*   Running the development server and deploying the application.
+  
 ## Overview
-
-AgentLabUI provides a user-friendly dashboard to:
+Build Buddy provides a user-friendly dashboard to:
 *   Design various types of AI agents (standalone, sequential, parallel, loop-based).
 *   Configure agent properties like model, instructions, and tools.
 *   Integrate custom tools via the Gofannon tool manifest.
@@ -37,17 +41,6 @@ Our goal is to lower the barrier to entry for working with advanced agent framew
 *   **Backend:** Firebase (Authentication, Firestore, Cloud Functions for Python, Hosting)
 *   **AI Agent Framework:** Google Agent Development Kit (ADK)
 *   **Tool Framework Integration:** Gofannon
-
-## Getting Started
-
-For detailed instructions on how to set up, configure, and run this project locally and deploy it to Firebase, please refer to our comprehensive **[Getting_Started.md](./Getting_Started.md)** guide.
-
-This guide covers:
-*   Prerequisites (Node.js, Python, Firebase CLI, etc.)
-*   Firebase project setup.
-*   Local project configuration.
-*   Vertex AI setup for agent deployment.
-*   Running the development server and deploying the application.
 
 ## Available Scripts (Frontend - Create React App)
 
@@ -89,17 +82,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 *   [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 *   [React documentation](https://reactjs.org/).
 
-## Future Enhancements (Roadmap Ideas)
-
-*   More granular control over ADK deployment options (e.g., specific machine types, regions per deployment).
-*   Enhanced tool configuration UI (e.g., for Vertex AI Search datastore IDs).
-*   Agent sharing and collaboration features.
-*   Version control for agent configurations.
-*   Integration with more evaluation and testing frameworks.
-*   Expanded monitoring and analytics for deployed agents.
 
 ## Contributing
-
 We welcome contributions from the community! If you'd like to contribute, please:
 1.  Fork the repository.
 2.  Create a new branch for your feature or bug fix.
@@ -109,5 +93,4 @@ We welcome contributions from the community! If you'd like to contribute, please
 Please refer to `CONTRIBUTING.md` (if available) for more detailed guidelines.
 
 ## License
-
 This project is licensed under the [Apache License 2.0](./LICENSE). (Assuming Apache 2.0, please create a LICENSE file or specify otherwise).  

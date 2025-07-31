@@ -1,14 +1,12 @@
-![AgentLabUI Logo](./logo.png)
+# Getting Started with Build Buddy
 
-# AgentLabUI - An AI Alliance Project
-
-**AgentLabUI** is a web-based interface designed to simplify the creation, management, and deployment of AI agents. Built with React and Firebase, it leverages the power of Google's Agent Development Kit (ADK) and supports integration with Gofannon tools, enabling developers and researchers to rapidly prototype and experiment with sophisticated AI agent architectures.
+**Build Buddy** is a web-based interface designed to simplify the creation, management, and deployment of AI agents. Built with React and Firebase, it leverages the power of Google's Agent Development Kit (ADK) and supports integration with Gofannon tools, enabling developers and researchers to rapidly prototype and experiment with sophisticated AI agent architectures.
 
 This project is an initiative aimed at fostering collaboration and advancing AI agent development within the **AI Alliance** community and beyond.
 
 ## Overview
 
-AgentLabUI provides a user-friendly dashboard to:
+Build Buddy provides a user-friendly dashboard to:
 *   Design various types of AI agents (standalone, sequential, parallel, loop-based).
 *   Configure agent properties like model, instructions, and tools.
 *   Integrate custom tools via the Gofannon tool manifest.

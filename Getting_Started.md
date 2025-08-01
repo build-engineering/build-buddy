@@ -404,13 +404,33 @@ This is normal for first-time setup as Firestore creates indexes on-demand, but 
 npm run build
 ```
 
-#### Deploy All Components
+#### Prepare to deploy functions
+1. Navigate to the `functions` folder:
 ```bash
-firebase deploy
+cd functions
+```
+2. Create venv:
+```bash
+python3 -m venv venv 
+```
+3. Activate venv:
+```bash
+source ./venv/bin/activate
+```
+3. Install python libraries:
+```bash
+python3 -m pip install -r requirements.txt
+```
+5. Navigate back to project root:
+```bash
+cd ..
 ```
 
-#### Deploy Selectively (if needed)
+#### Choose a Deployment Option
 ```bash
+# Deploy all components
+firebase deploy
+
 # Deploy only hosting
 firebase deploy --only hosting
 
